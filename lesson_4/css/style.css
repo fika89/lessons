@@ -1,0 +1,92 @@
+/* варіант підключення шрифтів
+1 підключення з гугл фонтс 2 шрифта 1 родина*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/*2 за допомогою плагіна гугл фонтс*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap");
+
+
+/* коли немає шрифту, підключення локально
+у вкладці фонтс
+*/
+
+@import url(fonts.css);
+@import url("reset.css");
+
+body {
+  font-family:"Quicksand",  regular;
+  font-weight:600;
+  color:rgba(2, 2, 2, 0.781);
+}
+
+.title  {
+  font-size:50px;
+  font-family:"Roboto", ital;
+  font-weight:700;
+  color:green; 
+  text-align:center;
+  text-shadow:
+  5px 5px 15px  rgba(2, 2,  0.5,  0.4),
+  1px 1px 2px red;
+}
+
+.header {
+  font-family:"Roboto", ital;
+  font-weight:900;
+  color:red;
+  text-shadow:
+  5px 5px 15px rgba(2,  2,  0.5,  0.4),
+  1px 1px 2px red;
+  text-align: center;
+}
+
+.paragraf {
+  font-family:"Roboto Flex",  opsz;
+  font-weight: 1000;
+  text-decoration:line-through;
+  text-decoration-color:red;
+  text-decoration-style: dotted;
+  text-align:center;
+}
+
+.page {
+  font-family:'Proxima Nova Rg';
+  text-align:center;
+  text-transform:uppercase;
+  color:black;
+  letter-spacing: 2px;
+}
+
+.text2 {
+  color:  green;
+}
+
+h2.subtitle {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  color: red;
+}
+
+.list {
+  text-shadow:
+  8px 8px 20px rgba(0, 0, 0.5);
+  -2px -2px 5px black;
+}
+
+div.text {
+font-family: var(--font-family);
+font-size: 40px;
+text-align: center;
+color: black;
+}
+
+div.text3 {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: black;
+}
