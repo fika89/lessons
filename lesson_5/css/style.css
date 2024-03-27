@@ -1,0 +1,73 @@
+/* варіант підключення шрифтів
+1 підключення з гугл фонтс 2 шрифта 1 родина*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap'); */
+
+/*2 за допомогою плагіна гугл фонтс*/
+/* @import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap"); */
+
+
+
+/*
+коли немає шрифту, підключення локально
+у вкладці фонтс
+*/
+
+@import url(fonts.css);
+
+@import url("reset.css");
+
+body {
+  font-family: Proxima Nova, sans-serif;
+  font-weight: 400;
+}
+.text1 {
+  /* display: flex; */
+  font-weight: 800;
+  text-align: center;
+  margin: 15px 0px 20px 0px;
+}
+.img  {
+  display: flex;
+  justify-content: center;
+}
+
+/* елементи конструкція по горизонталі*/
+
+/* .test {
+  display: block;
+} */
+
+.items,text2 {
+  display: inline-block;
+  /* width:  22.55555%; */
+	margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.text {
+  font-family: Proxima Nova, sans-serif;
+  font-weight: 400;
+  width: max-width;
+  text-align: center;
+}
+
+.foto {
+  /* text-align: center; */
+  display: flex;
+  margin: auto;
+  /* margin-top: auto; */
+  /* display: inline-block; */
+}
+.items2 {
+  width:max-width;
+  box-sizing: border-box;
+  outline:width;
+  margin: 0px 24px  0px;
+  text-align: center;
+  height:max-content;
+}
